@@ -1,0 +1,55 @@
+
+None selected 
+
+Skip to content
+Using Nalla Malla Reddy Engineering College Mail with screen readers
+Conversations
+Using 8,721.08 GB
+Program Policies
+Powered by Google
+Last account activity: 33 minutes ago
+Details
+
+Anuhya@Anuhya-Lenovo-IdeaPad-S145-15AST:~$ sudo apt install rustc
+[sudo] password for Anuhya:
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libllvm14 libstd-rust-1.65 libstd-rust-dev
+Suggested packages:
+  cargo llvm-14 lld-14 clang-14
+The following NEW packages will be installed:
+  libllvm14 libstd-rust-1.65 libstd-rust-dev rustc
+0 upgraded, 4 newly installed, 0 to remove and 6 not upgraded.
+Need to get 91.4 MB of archives.
+After this operation, 393 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libllvm14 amd64 1:14.0.0-1ubuntu1 [24.0 MB]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstd-rust-1.65 amd64 1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1 [21.5 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstd-rust-dev amd64 1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1 [42.8 MB]
+Get:4 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 rustc amd64 1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1 [3,204 kB]
+Fetched 91.4 MB in 5min 22s (284 kB/s)
+Selecting previously unselected package libllvm14:amd64.
+(Reading database ... 248303 files and directories currently installed.)
+Preparing to unpack .../libllvm14_1%3a14.0.0-1ubuntu1_amd64.deb ...
+Unpacking libllvm14:amd64 (1:14.0.0-1ubuntu1) ...
+Selecting previously unselected package libstd-rust-1.65:amd64.
+Preparing to unpack .../libstd-rust-1.65_1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libstd-rust-1.65:amd64 (1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libstd-rust-dev:amd64.
+Preparing to unpack .../libstd-rust-dev_1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libstd-rust-dev:amd64 (1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1) ...
+Selecting previously unselected package rustc.
+Preparing to unpack .../rustc_1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking rustc (1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1) ...
+Setting up libllvm14:amd64 (1:14.0.0-1ubuntu1) ...
+Setting up libstd-rust-1.65:amd64 (1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1) ...
+Setting up libstd-rust-dev:amd64 (1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1) ...
+Setting up rustc (1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+Anuhya@Anuhya-Lenovo-IdeaPad-S145-15AST:~$
+
+rustinstall.txt
+Displaying rustinstall.txt.

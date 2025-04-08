@@ -1,0 +1,591 @@
+
+nmrec@nmrec-H410M-H-V2:~$ cd Desktop
+nmrec@nmrec-H410M-H-V2:~/Desktop$ mkdir
+6608
+nmrec@nmrec-H410M-H-V2:~/Desktop$ cd 6608
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ uname
+-a
+Linux nmrec-H410M-H-V2 5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+x86_64 x86_64 x86_64 GNU/Linux
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ uname
+-r
+5.15.0-71-generic
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$
+hostname
+nmrec-H410M-H-V2
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ hostname
+-i
+127.0.1.1
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ hostname -I
+192.168.16.28
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ cat
+123.txt
+tydfytdytfkugugigipghipuhiup
+hguygfoygoiu\oihiughiu
+uiguiguipui
+iouhbiuhuihuihui
+oijuih
+uihuihuihui
+oihiuhuihuih
+iojiohiubiuvuyvy
+oihuighuoigigui
+hbuiogouguyggouyi
+iuguiguygouguy
+nmre
+c@nmrec-H410M-H-V2:~/Desktop/6608$ bg
+bash: bg: current: no such
+job
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ fg
+bash: fg: current: no such
+job
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ fg n
+bash: fg: n: no such
+job
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ head 123
+head: cannot open '123' for reading: No
+such file or directory
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ head
+123.txt
+tydfytdytfkugugigipghipuhiup
+hguygfoygoiu\oihiughiu
+uiguiguipui
+iouhbiuhuihuihui
+oijuih
+uihuihuihui
+oihiuhuihuih
+iojiohiubiuvuyvy
+oihuighuoigigui
+hbuiogouguyggouyi
+iuguiguygouguy
+nmre
+c@nmrec-H410M-H-V2:~/Desktop/6608$ ps
+PID TTY TIME CMD
+10573 pts/0 00:00:00
+bash
+10871 pts/0 00:00:00 ps
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ ps -ef
+UID
+PID PPID C STIME TTY TIME CMD
+root 1 0 0 14:54 ? 00:00:02
+/sbin/init splash
+root 2 0 0 14:54 ? 00:00:00 [kthreadd]
+root
+3 2 0 14:54 ? 00:00:00 [rcu_gp]
+root 4 2 0 14:54 ?
+00:00:00 [rcu_par_gp]
+root 5 2 0 14:54 ? 00:00:00 [slub_flushwq]
+root
+6 2 0 14:54 ? 00:00:00 [netns]
+root 8 2 0 14:54 ?
+00:00:00 [kworker/0:0H-events_highpri
+root 10 2 0 14:54 ? 00:00:00
+[mm_percpu_wq]
+root 11 2 0 14:54 ? 00:00:00 [rcu_tasks_rude_]
+root
+12 2 0 14:54 ? 00:00:00 [rcu_tasks_trace]
+root 13 2 0 14:54 ?
+00:00:00 [ksoftirqd/0]
+root 14 2 0 14:54 ? 00:00:02
+[rcu_sched]
+root 15 2 0 14:54 ? 00:00:00 [migration/0]
+root 16
+2 0 14:54 ? 00:00:00 [idle_inject/0]
+root 18 2 0 14:54 ?
+00:00:00 [cpuhp/0]
+root 19 2 0 14:54 ? 00:00:00 [cpuhp/1]
+root
+20 2 0 14:54 ? 00:00:00 [idle_inject/1]
+root 21 2 0 14:54 ?
+00:00:00 [migration/1]
+root 22 2 0 14:54 ? 00:00:00 [ksoftirqd/1]
+root
+24 2 0 14:54 ? 00:00:00 [kworker/1:0H-kblockd]
+root 25 2
+0 14:54 ? 00:00:00 [cpuhp/2]
+root 26 2 0 14:54 ? 00:00:00
+[idle_inject/2]
+root 27 2 0 14:54 ? 00:00:00 [migration/2]
+root
+28 2 0 14:54 ? 00:00:00 [ksoftirqd/2]
+root 30 2 0 14:54 ?
+00:00:00 [kworker/2:0H-events_highpri
+root 31 2 0 14:54 ? 00:00:00
+[cpuhp/3]
+root 32 2 0 14:54 ? 00:00:00 [idle_inject/3]
+root 33
+2 0 14:54 ? 00:00:00 [migration/3]
+root 34 2 0 14:54 ?
+00:00:00 [ksoftirqd/3]
+root 36 2 0 14:54 ? 00:00:00
+[kworker/3:0H-kblockd]
+root 37 2 0 14:54 ? 00:00:00 [cpuhp/4]
+root
+38 2 0 14:54 ? 00:00:00 [idle_inject/4]
+root 39 2 0 14:54 ?
+00:00:00 [migration/4]
+root 40 2 0 14:54 ? 00:00:00
+[ksoftirqd/4]
+root 42 2 0 14:54 ? 00:00:00 [kworker/4:0H-kblockd]
+root
+43 2 0 14:54 ? 00:00:00 [cpuhp/5]
+root 44 2 0 14:54 ?
+00:00:00 [idle_inject/5]
+root 45 2 0 14:54 ? 00:00:00
+[migration/5]
+root 46 2 0 14:54 ? 00:00:00 [ksoftirqd/5]
+root
+48 2 0 14:54 ? 00:00:00 [kworker/5:0H-events_highpri
+root 49 2 0
+14:54 ? 00:00:00 [cpuhp/6]
+root 50 2 0 14:54 ? 00:00:00
+[idle_inject/6]
+root 51 2 0 14:54 ? 00:00:00 [migration/6]
+root
+52 2 0 14:54 ? 00:00:00 [ksoftirqd/6]
+root 54 2 0 14:54 ?
+00:00:00 [kworker/6:0H-events_highpri
+root 55 2 0 14:54 ? 00:00:00
+[cpuhp/7]
+root 56 2 0 14:54 ? 00:00:00 [idle_inject/7]
+root 57
+2 0 14:54 ? 00:00:00 [migration/7]
+root 58 2 0 14:54 ?
+00:00:00 [ksoftirqd/7]
+root 60 2 0 14:54 ? 00:00:00
+[kworker/7:0H-kblockd]
+root 61 2 0 14:54 ? 00:00:00 [cpuhp/8]
+root
+62 2 0 14:54 ? 00:00:00 [idle_inject/8]
+root 63 2 0 14:54 ?
+00:00:00 [migration/8]
+root 64 2 0 14:54 ? 00:00:00
+[ksoftirqd/8]
+root 66 2 0 14:54 ? 00:00:00 [kworker/8:0H-kblockd]
+root
+67 2 0 14:54 ? 00:00:00 [cpuhp/9]
+root 68 2 0 14:54 ?
+00:00:00 [idle_inject/9]
+root 69 2 0 14:54 ? 00:00:00
+[migration/9]
+root 70 2 0 14:54 ? 00:00:02 [ksoftirqd/9]
+root
+72 2 0 14:54 ? 00:00:00 [kworker/9:0H-kblockd]
+root 73 2 0 14:54
+? 00:00:00 [cpuhp/10]
+root 74 2 0 14:54 ? 00:00:00
+[idle_inject/10]
+root 75 2 0 14:54 ? 00:00:00 [migration/10]
+root
+76 2 0 14:54 ? 00:00:00 [ksoftirqd/10]
+root 78 2 0 14:54 ?
+00:00:00 [kworker/10:0H-events_highpr
+root 79 2 0 14:54 ? 00:00:00
+[cpuhp/11]
+root 80 2 0 14:54 ? 00:00:00 [idle_inject/11]
+root
+81 2 0 14:54 ? 00:00:00 [migration/11]
+root 82 2 0 14:54 ?
+00:00:00 [ksoftirqd/11]
+root 84 2 0 14:54 ? 00:00:00
+[kworker/11:0H-events_highpr
+root 85 2 0 14:54 ? 00:00:00
+[kdevtmpfs]
+root 86 2 0 14:54 ? 00:00:00 [inet_frag_wq]
+root 87
+2 0 14:54 ? 00:00:00 [kauditd]
+root 88 2 0 14:54 ?
+00:00:00 [khungtaskd]
+root 89 2 0 14:54 ? 00:00:00 [oom_reaper]
+root
+90 2 0 14:54 ? 00:00:00 [writeback]
+root 91 2 0 14:54 ?
+00:00:00 [kcompactd0]
+root 92 2 0 14:54 ? 00:00:00 [ksmd]
+root
+93 2 0 14:54 ? 00:00:00 [khugepaged]
+root 140 2 0 14:54 ?
+00:00:00 [kintegrityd]
+root 141 2 0 14:54 ? 00:00:00 [kblockd]
+root
+142 2 0 14:54 ? 00:00:00 [blkcg_punt_bio]
+root 146 2 0 14:54 ?
+00:00:00 [kworker/4:1-events]
+root 149 2 0 14:54 ? 00:00:00
+[tpm_dev_wq]
+root 150 2 0 14:54 ? 00:00:00 [ata_sff]
+root 151
+2 0 14:54 ? 00:00:00 [md]
+root 152 2 0 14:54 ? 00:00:00
+[edac-poller]
+root 153 2 0 14:54 ? 00:00:00 [devfreq_wq]
+root 154
+2 0 14:54 ? 00:00:00 [watchdogd]
+root 156 2 0 14:54 ?
+00:00:00 [kworker/0:1H-events_highpri
+root 158 2 0 14:54 ? 00:00:00
+[kswapd0]
+root 159 2 0 14:54 ? 00:00:00 [ecryptfs-kthrea]
+root
+161 2 0 14:54 ? 00:00:00 [kthrotld]
+root 162 2 0 14:54 ?
+00:00:00 [irq/122-pciehp]
+root 163 2 0 14:54 ? 00:00:00
+[irq/123-pciehp]
+root 164 2 0 14:54 ? 00:00:00 [irq/124-pciehp]
+root
+165 2 0 14:54 ? 00:00:00 [irq/125-pciehp]
+root 166 2 0 14:54 ?
+00:00:00 [acpi_thermal_pm]
+root 168 2 0 14:54 ? 00:00:00
+[kworker/10:1-events]
+root 169 2 0 14:54 ? 00:00:00
+[kworker/11:1-events]
+root 170 2 0 14:54 ? 00:00:03
+[kworker/9:1-events]
+root 171 2 0 14:54 ? 00:00:00 [vfio-irqfd-clea]
+root
+172 2 0 14:54 ? 00:00:00 [mld]
+root 173 2 0 14:54 ?
+00:00:00 [kworker/6:1H-kblockd]
+root 174 2 0 14:54 ? 00:00:00
+[ipv6_addrconf]
+root 183 2 0 14:54 ? 00:00:00 [kstrp]
+root 186
+2 0 14:54 ? 00:00:00 [zswap-shrink]
+root 187 2 0 14:54 ?
+00:00:01 [kworker/u25:0-i915_flip]
+root 194 2 0 14:54 ? 00:00:00
+[charger_manager]
+root 216 2 0 14:54 ? 00:00:00
+[kworker/2:1H-kblockd]
+root 247 2 0 14:54 ? 00:00:00
+[kworker/10:1H-kblockd]
+root 262 2 0 14:54 ? 00:00:00
+[kworker/11:1H-events_highpr
+root 263 2 0 14:54 ? 00:00:00
+[scsi_eh_0]
+root 264 2 0 14:54 ? 00:00:00 [scsi_tmf_0]
+root 265
+2 0 14:54 ? 00:00:00 [scsi_eh_1]
+root 266 2 0 14:54 ?
+00:00:00 [scsi_tmf_1]
+root 267 2 0 14:54 ? 00:00:00 [scsi_eh_2]
+root
+268 2 0 14:54 ? 00:00:00 [scsi_tmf_2]
+root 269 2 0 14:54 ?
+00:00:00 [scsi_eh_3]
+root 270 2 0 14:54 ? 00:00:00 [scsi_tmf_3]
+root
+271 2 0 14:54 ? 00:00:00 [scsi_eh_4]
+root 272 2 0 14:54 ?
+00:00:00 [scsi_tmf_4]
+root 273 2 0 14:54 ? 00:00:00 [scsi_eh_5]
+root
+274 2 0 14:54 ? 00:00:00 [scsi_tmf_5]
+root 282 2 0 14:54 ?
+00:00:00 [kworker/5:1H-kblockd]
+root 301 2 0 14:54 ? 00:00:00
+[kworker/3:1H-kblockd]
+root 303 2 0 14:54 ? 00:00:00 [jbd2/sda4-8]
+root
+304 2 0 14:54 ? 00:00:00 [ext4-rsv-conver]
+root 321 2 0
+14:54 ? 00:00:00 [kworker/7:1H-kblockd]
+root 332 2 0 14:54 ?
+00:00:00 [kworker/4:1H-events_highpri
+root 341 2 0 14:54 ? 00:00:00
+[kworker/9:1H-kblockd]
+root 342 2 0 14:54 ? 00:00:00
+[kworker/1:1H-kblockd]
+root 343 2 0 14:54 ? 00:00:00
+[kworker/8:1H-kblockd]
+root 349 1 0 14:54 ? 00:00:01
+/lib/systemd/systemd-journal
+root 377 2 0 14:54 ? 00:00:00
+[ipmi-msghandler]
+root 400 1 0 14:54 ? 00:00:00
+/lib/systemd/systemd-udevd
+root 452 2 0 14:54 ? 00:00:00
+[irq/130-mei_me]
+root 470 2 0 14:54 ? 00:00:00 [cryptd]
+root 475
+2 0 14:54 ? 00:00:02 [kworker/u24:8-events_power_
+root 534 2 0
+14:54 ? 00:00:00 [card0-crtc0]
+root 535 2 0 14:54 ? 00:00:00
+[card0-crtc1]
+root 536 2 0 14:54 ? 00:00:00 [card0-crtc2]
+systemd+
+718 1 0 14:54 ? 00:00:00 /lib/systemd/systemd-resolve
+systemd+ 721 1 0
+14:54 ? 00:00:00 /lib/systemd/systemd-timesyn
+root 757 1 0 14:54 ?
+00:00:00 /usr/lib/accountsservice/acc
+root 758 1 0 14:54 ? 00:00:00
+/usr/sbin/acpid
+avahi 761 1 0 14:54 ? 00:00:25 avahi-daemon: registering
+[n
+root 762 1 0 14:54 ? 00:00:00 /usr/sbin/cron -f
+message+ 765
+1 0 14:54 ? 00:00:01 /usr/bin/dbus-daemon --syste
+root 766 1 0 14:54 ?
+00:00:33 /usr/sbin/NetworkManager --n
+root 775 1 0 14:54 ? 00:00:00
+/usr/sbin/irqbalance --foreg
+root 776 1 0 14:54 ? 00:00:00
+/usr/bin/python3 /usr/bin/ne
+root 778 1 0 14:54 ? 00:00:00
+/usr/lib/policykit-1/polkitd
+syslog 781 1 0 14:54 ? 00:00:00
+/usr/sbin/rsyslogd -n -iNONE
+root 790 1 0 14:54 ? 00:00:02
+/usr/lib/snapd/snapd
+root 792 1 0 14:54 ? 00:00:00
+/usr/libexec/switcheroo-cont
+root 795 1 0 14:54 ? 00:00:00
+/lib/systemd/systemd-logind
+root 797 1 0 14:54 ? 00:00:00
+/usr/sbin/thermald --systemd
+root 801 1 0 14:54 ? 00:00:00
+/usr/lib/udisks2/udisksd
+root 802 1 0 14:54 ? 00:00:00
+/sbin/wpa_supplicant -u -s -
+avahi 806 761 0 14:54 ? 00:00:00 avahi-daemon:
+chroot helper
+root 853 1 0 14:54 ? 00:00:00 /usr/sbin/cupsd -l
+root
+863 1 0 14:54 ? 00:00:00 /usr/sbin/cups-browsed
+epmd 870 1 0
+14:54 ? 00:00:00 /usr/bin/epmd -systemd
+mongodb 871 1 0 14:54 ?
+00:00:24 /usr/bin/mongod --unixSocket
+root 880 1 0 14:54 ? 00:00:00
+/usr/sbin/ModemManager
+root 899 1 0 14:54 ? 00:00:00 /usr/sbin/gdm3
+root
+937 1 0 14:54 ? 00:00:00 /usr/bin/python3 /usr/share/
+root 940
+899 0 14:54 ? 00:00:00 gdm-session-worker [pam/gdm-
+nmrec 951 1 0 14:54 ?
+00:00:00 /lib/systemd/systemd --user
+nmrec 952 951 0 14:54 ? 00:00:00
+(sd-pam)
+mysql 961 1 0 14:54 ? 00:00:41 /usr/sbin/mysqld
+nmrec 966
+951 0 14:54 ? 00:00:00 /usr/bin/pulseaudio --daemon
+nmrec 968 951 0
+14:54 ? 00:00:00 /usr/libexec/tracker-miner-f
+nmrec 971 1 0 14:54 ?
+00:00:00 /usr/bin/gnome-keyring-daemo
+nmrec 975 940 0 14:54 tty2 00:00:00
+/usr/lib/gdm3/gdm-x-session
+nmrec 977 975 0 14:54 tty2 00:01:02
+/usr/lib/xorg/Xorg vt2 -disp
+nmrec 980 951 0 14:54 ? 00:00:01
+/usr/bin/dbus-daemon --sessi
+rtkit 981 1 0 14:54 ? 00:00:00
+/usr/libexec/rtkit-daemon
+nmrec 989 951 0 14:54 ? 00:00:00
+/usr/libexec/gvfsd
+nmrec 1004 951 0 14:54 ? 00:00:00 /usr/libexec/gvfsd-fuse
+/run
+nmrec 1011 951 0 14:54 ? 00:00:00 /usr/libexec/gvfs-udisks2-vo
+nmrec
+1017 951 0 14:54 ? 00:00:00 /usr/libexec/gvfs-mtp-volume
+nmrec 1021 951
+0 14:54 ? 00:00:00 /usr/libexec/gvfs-goa-volume
+nmrec 1025 951 0 14:54 ?
+00:00:00 /usr/libexec/goa-daemon
+nmrec 1088 951 0 14:54 ? 00:00:00
+/usr/libexec/goa-identity-se
+nmrec 1093 951 0 14:54 ? 00:00:00
+/usr/libexec/gvfs-afc-volume
+nmrec 1099 951 0 14:54 ? 00:00:00
+/usr/libexec/gvfs-gphoto2-vo
+root 1104 1 0 14:54 ? 00:00:00
+/usr/lib/upower/upowerd
+nmrec 1203 975 0 14:54 tty2 00:00:00
+/usr/libexec/gnome-session-b
+nmrec 1277 1203 0 14:54 ? 00:00:00
+/usr/bin/ssh-agent /usr/bin/
+nmrec 1295 951 0 14:54 ? 00:00:00
+/usr/libexec/at-spi-bus-laun
+nmrec 1300 1295 0 14:54 ? 00:00:00
+/usr/bin/dbus-daemon --confi
+nmrec 1308 951 0 14:54 ? 00:00:00
+/usr/libexec/gnome-session-c
+nmrec 1315 951 0 14:54 ? 00:00:00
+/usr/libexec/gnome-session-b
+nmrec 1329 951 1 14:54 ? 00:01:22
+/usr/bin/gnome-shell
+nmrec 1355 1329 0 14:54 ? 00:00:00 ibus-daemon --panel
+disable
+nmrec 1359 1355 0 14:54 ? 00:00:00 /usr/libexec/ibus-memconf
+nmrec
+1360 1355 0 14:54 ? 00:00:00 /usr/libexec/ibus-extension-
+nmrec 1362
+951 0 14:54 ? 00:00:00 /usr/libexec/ibus-x11 --kill
+nmrec 1366 951 0 14:54 ?
+00:00:00 /usr/libexec/ibus-portal
+nmrec 1376 951 0 14:54 ? 00:00:00
+/usr/libexec/at-spi2-registr
+nmrec 1380 951 0 14:54 ? 00:00:00
+/usr/libexec/xdg-permission-
+nmrec 1382 951 0 14:54 ? 00:00:00
+/usr/libexec/gnome-shell-cal
+nmrec 1391 951 0 14:54 ? 00:00:00
+/usr/libexec/evolution-sourc
+nmrec 1401 951 0 14:54 ? 00:00:00
+/usr/libexec/evolution-calen
+nmrec 1406 951 0 14:54 ? 00:00:00
+/usr/libexec/dconf-service
+nmrec 1419 951 0 14:54 ? 00:00:00
+/usr/libexec/evolution-addre
+asterisk 1450 1 0 14:54 ? 00:00:50
+/usr/sbin/asterisk -g -f -p
+whoopsie 1453 1 0 14:54 ? 00:00:00
+/usr/bin/whoopsie -f
+nmrec 1456 951 0 14:54 ? 00:00:00 /usr/bin/gjs
+/usr/share/gnom
+kernoops 1459 1 0 14:54 ? 00:00:00 /usr/sbin/kerneloops
+--test
+kernoops 1463 1 0 14:54 ? 00:00:00 /usr/sbin/kerneloops
+asterisk
+1485 1450 0 14:54 ? 00:00:00 astcanary /var/run/asterisk/
+nmrec 1487 989
+0 14:54 ? 00:00:00 /usr/libexec/gvfsd-trash --s
+rstudio+ 1496 1 0 14:54 ?
+00:00:06 /usr/lib/rstudio-server/bin/
+nmrec 1512 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-a11y-settin
+nmrec 1513 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-color
+nmrec 1514 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-datetime
+nmrec 1515 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-housekeepin
+nmrec 1517 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-keyboard
+nmrec 1519 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-media-keys
+nmrec 1521 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-power
+nmrec 1524 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-print-notif
+nmrec 1526 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-rfkill
+nmrec 1527 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-screensaver
+nmrec 1530 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-sharing
+nmrec 1533 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-smartcard
+nmrec 1535 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-sound
+nmrec 1537 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-usb-protect
+nmrec 1544 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-wacom
+nmrec 1546 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-wwan
+nmrec 1548 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-xsettings
+nmrec 1558 1315 0 14:54 ? 00:00:00
+/usr/libexec/gsd-disk-utilit
+nmrec 1568 1315 0 14:54 ? 00:00:00
+/usr/libexec/evolution-data-
+nmrec 1611 1355 0 14:54 ? 00:00:00
+/usr/libexec/ibus-engine-sim
+nmrec 1632 951 0 14:54 ? 00:00:04
+/snap/snap-store/599/usr/bin
+colord 1649 1 0 14:54 ? 00:00:00
+/usr/libexec/colord
+nmrec 1677 951 0 14:54 ? 00:00:00
+/usr/libexec/xdg-document-po
+nmrec 1746 951 0 14:54 ? 00:00:00
+/usr/libexec/gsd-printer
+root 1858 2 0 14:55 ? 00:00:00
+[kworker/u25:1]
+nmrec 1928 951 0 14:55 ? 00:00:00
+/usr/libexec/xdg-desktop-por
+nmrec 1932 951 0 14:55 ? 00:00:00
+/usr/libexec/xdg-desktop-por
+root 1964 1 0 14:55 ? 00:00:00
+/usr/libexec/fwupd/fwupd
+nmrec 2608 951 0 14:55 ? 00:00:00
+/usr/libexec/gvfsd-metadata
+nmrec 3077 1315 0 14:55 ? 00:00:00
+update-notifier
+nmrec 5327 951 0 15:22 ? 00:00:00 /usr/bin/gnome-calendar
+--ga
+nmrec 7997 989 0 15:54 ? 00:00:00 /usr/libexec/gvfsd-network -
+nmrec
+8010 989 0 15:54 ? 00:00:00 /usr/libexec/gvfsd-dnssd --s
+root 8080 2
+0 15:54 ? 00:00:00 [kworker/6:0-events]
+root 8125 2 0 15:55 ?
+00:00:00 [kworker/7:2-events]
+root 8325 2 0 15:59 ? 00:00:00
+[kworker/10:0-events]
+root 8402 2 0 16:00 ? 00:00:00
+[kworker/1:2-events]
+root 8654 2 0 16:06 ? 00:00:01
+[kworker/u24:3-events_unboun
+root 8657 2 0 16:06 ? 00:00:00
+[kworker/8:2-events]
+root 8704 2 0 16:08 ? 00:00:00
+[kworker/5:2-events]
+root 8767 2 0 16:10 ? 00:00:00
+[kworker/3:1-events]
+root 8830 2 0 16:11 ? 00:00:00
+[kworker/2:2-events]
+root 8966 2 0 16:13 ? 00:00:00
+[kworker/5:1-cgroup_destroy]
+root 9096 2 0 16:19 ? 00:00:00
+[kworker/0:2-events]
+root 9175 2 0 16:19 ? 00:00:00
+[kworker/11:2-events]
+root 9850 2 0 16:30 ? 00:00:00
+[kworker/u24:1-events_unboun
+root 10229 2 0 16:33 ? 00:00:00
+[kworker/2:1-cgroup_destroy]
+root 10464 2 0 16:37 ? 00:00:00
+[kworker/1:1-mm_percpu_wq]
+root 10465 2 0 16:37 ? 00:00:00
+[kworker/4:0-events]
+root 10534 2 0 16:37 ? 00:00:00
+[kworker/6:1-events]
+root 10542 2 0 16:37 ? 00:00:00
+[kworker/3:2-events]
+root 10543 2 0 16:37 ? 00:00:00
+[kworker/9:2-events]
+nmrec 10565 951 0 16:37 ? 00:00:01
+/usr/libexec/gnome-terminal-
+nmrec 10573 10565 0 16:37 pts/0 00:00:00 bash
+root
+10614 2 0 16:39 ? 00:00:00 [kworker/u24:2-events_unboun
+nmrec 10617 951
+0 16:40 ? 00:00:00 /usr/bin/nautilus --gapplica
+root 10812 2 0 16:40 ?
+00:00:00 [kworker/7:1-events]
+root 10860 2 0 16:41 ? 00:00:00
+[kworker/8:0-cgroup_destroy]
+root 10861 2 0 16:41 ? 00:00:00
+[kworker/0:1-events_freezabl
+nmrec 10872 10573 0 16:46 pts/0 00:00:00 ps
+-ef
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ kill 10872
+bash: kill: (10872) - No such
+process
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ chmod 777
+123.txt
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ chmod 755
+123.txt
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ chmod 664
+123.txt
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ chmod 644
+123.txt
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$ chmod 775
+123.txt
+nmrec@nmrec-H410M-H-V2:~/Desktop/6608$
+Powered by TCPDF (www.tcpdf.org)

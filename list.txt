@@ -1,0 +1,60 @@
+#lists of fruits and vegetables
+list1=["apples","banana","orange","grapes"]
+print(list1)
+list2=["brinjal","carrot","bottleguard","brocolli"]
+print(list2)
+
+#printing the type of data
+print(type(list1))
+print(type(list2))
+
+#finding index values of list1
+print(list1[0])
+print(list1[-1])
+print(list1[1])
+print(list1[-2])
+print(list1[2])
+print(list1[-3])
+
+
+#finding index values of list2  
+print(list2[0])
+print(list2[-1])
+print(list2[1])
+print(list2[-2])
+print(list2[2])
+print(list2[-3])
+
+#creating the dictornary
+
+dict={}
+print("empty dictornary:")
+print(dict)
+
+#adding elements
+dict[0]='john'
+dict[1]='tom'
+dict[2]='jerry'
+dict[3]='babblu'
+dict[4]='dabblu'
+print("\ndictionary after adding elements")
+print(dict)
+
+#updating the dict values
+dict[0]='baby shark'
+print(dict) 
+
+#creating sets using python
+
+#first
+set
+c={2,3,4,5,6}
+
+#second set
+f={5,6,7,8,9}
+
+# union set
+print('union using union():',c.union(f))
+ 
+ # difference
+print('difference using difference:',c-f)

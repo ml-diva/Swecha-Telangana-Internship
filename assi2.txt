@@ -1,0 +1,56 @@
+nmrec@nmrec-H410M-H-V2:~$ git clone https://gitlab.com/team-108011618/pro.git
+fatal: destination path 'pro' already exists and is not an empty directory.
+nmrec@nmrec-H410M-H-V2:~$ nano add.py
+nmrec@nmrec-H410M-H-V2:~$ git add add.py
+fatal: not a git repository (or any of the parent directories): .git
+nmrec@nmrec-H410M-H-V2:~$ ls
+add.py        package.json       rstudio-server-2022.07.2-576-amd64.deb
+Desktop       package-lock.json  snap
+Documents     Pictures           Templates
+Downloads     pro                tf-demo
+Music         Public             ToStartTomcatServer.txt
+node_modules  R                  Videos
+nmrec@nmrec-H410M-H-V2:~$ cd pro
+nmrec@nmrec-H410M-H-V2:~/pro$ git add add.py
+fatal: pathspec 'add.py' did not match any files
+nmrec@nmrec-H410M-H-V2:~/pro$ nano add.py
+nmrec@nmrec-H410M-H-V2:~/pro$ git add add.py
+nmrec@nmrec-H410M-H-V2:~/pro$ git commit -m
+error: switch `m' requires a value
+nmrec@nmrec-H410M-H-V2:~/pro$ git commit -m""
+error: switch `m' requires a value
+nmrec@nmrec-H410M-H-V2:~/pro$ git commit -m "adding prog"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'nmrec@nmrec-H410M-H-V2.(none)')
+nmrec@nmrec-H410M-H-V2:~/pro$ git config --global user.email "devianuhya6@gamil.com"
+nmrec@nmrec-H410M-H-V2:~/pro$ git commit -m "adding prog"
+[main feb95f1] adding prog
+ 1 file changed, 4 insertions(+)
+ create mode 100644 add.py
+nmrec@nmrec-H410M-H-V2:~/pro$ git commit -m "adding subtraction program"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+nmrec@nmrec-H410M-H-V2:~/pro$ git push
+Username for 'https://gitlab.com': git pull
+Password for 'https://git pull@gitlab.com': 
+[1]+  Stopped                 git push
+nmrec@nmrec-H410M-H-V2:~/pro$ git push
+Username for 'https://gitlab.com': anuhya608 
+Password for 'https://anuhya608@gitlab.com': 
+remote: HTTP Basic: Access denied. The provided password or token is incorrect or your account has 2FA enabled and you must use a personal access token instead of a password. See https://gitlab.com/help/topics/git/troubleshooting_git#error-on-git-fetch-http-basic-access-denied
+fatal: Authentication failed for 'https://gitlab.com/team-108011618/pro.git/'
+nmrec@nmrec-H410M-H-V2:~/pro$ 
+
